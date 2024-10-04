@@ -1,0 +1,125 @@
+// Make page header alignment consistent with widget page header alignment
+.universal-wrapper h1 {
+  text-align: center;
+}
+
+// Center the CTA shortcode button
+.cta-group {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-title {
+  font-size: 36px;  /* 调整为你需要的大小 */
+  line-height: 1.2; /* 可选：调整行高 */
+  font-weight: bold; /* 可选：调整字体粗细 */
+}
+
+.hero-lead{
+  font-size: 16px;  /* 调整为你需要的大小 */
+}
+
+.mb-0 {
+  font-size: 20px;  /* 调整为你需要的大小 */
+  color: #1a73e8;
+  line-height: 1.2; /* 可选：调整行高 */
+  font-weight: bold; /* 可选：调整字体粗细 */
+}
+
+.home-section-bg {
+  background-color: #fff;
+
+}
+
+#section-markdown {
+  margin-top:-40px;
+  margin-bottom:-40px;
+  padding-top:-40px;
+  padding-bottom:-40px;
+}
+
+// .wg-markdown {
+//   margin-top:-40px;
+//   margin-bottom:-40px;
+//   padding-top:-40px;
+//   padding-bottom:-40px;
+// }
+
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.button-group a {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.button-group a:hover {
+  background-color: #555;
+}
+
+
+.author-group {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.author-item {
+  text-align: center;
+}
+
+.author-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.author-name {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #1a73e8;
+  font-size: 16px;
+}
+
+.author-name:hover {
+  text-decoration: underline;
+}
+
+// .home-section-bg {
+//   width: 80%;  /* 让内容占满宽度 */
+//   height: 100vh;  /* 让内容占满整个视窗高度 */
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   background-color: rgba(0, 0, 0, 0.5); /* 添加背景颜色，半透明 */
+// }
+
+.code-container {
+  display: flex;
+  align-items: flex-start;
+  //font-family: "Courier New", Courier, monospace;
+  line-height: 1.5;
+}
+
+.line-number {
+  color: blue;
+  padding-right: 10px;
+  user-select: none; /* Prevent line numbers from being selected */
+}
+
+.code-text {
+  white-space: pre-wrap; /* Preserve whitespace and line breaks */
+}
