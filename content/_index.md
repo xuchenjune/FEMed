@@ -86,7 +86,7 @@ sections:
       text: |
         <div style="text-align: center; margin-top: -100px;">
           <div>
-            <img src="/images/net.png" alt="Author 1" style="width: 100%; />
+            <img src="images/net.png" alt="Author 1" style="width: 100%; />
             <a style="text-align: center;" href="https://example.com/author1" style="font-size: 32">FEMed Architecture</a>
             <p style="text-align: left;">The architecture of our Image Encoder enhanced with two specialized Adapters: (a) the Multi-Scale Features Adapter that captures features at various granularities through pyramid pooling, and (b) the High-Frequency Adapter that emphasizes salient textural details from frequency domain analysis. (c) These Adapters feed into the Selection Module, which uses a trainable binary decision layer to selectively integrate the most informative feature set at each transformer stage, effectively tailoring the feature landscape for optimal tumour delineation in CT/MRI scans.
             </p>
@@ -144,7 +144,7 @@ sections:
       text: |
         <div style="text-align: center;">
           <div>
-            <img src="/images/compa.jpg" alt="Author 1" style="width: 100%;/>
+            <img src="images/compa.jpg" alt="Author 1" style="width: 100%;/>
             <a style="text-align: center;" href="https://example.com/author1" >Prompt Strategy</a>
             <p style="text-align: left;">Four settings of using bbox prompts during training and testing stages. The coarse bounding box prompt is designed to be almost the same size as the input image data, with different ratios indicating the proportion of pixels by which the rectangle is shrunk inward relative to the entire image. A pseudo-code for coarse bbox prompt generation is shown in Algorithm 1 in the paper.</p>
           </div>
@@ -191,24 +191,24 @@ sections:
       text: |
         <div class="author-group">
           <div class="author-item">
-            <img src="{{ "images/chenxu.jpg" | relURL }}" alt="Author 1" class="author-photo"/>
+            <img src="images/chenxu.jpg" alt="Author 1" class="author-photo"/>
             <a href="https://example.com/author1" class="author-name">Chen Xu</a>
           </div>
           <div class="author-item">
-            <img src="/images/Qiming.jpg" alt="Author 2" class="author-photo"/>
+            <img src="images/Qiming.jpg" alt="Author 2" class="author-photo"/>
             <a href="https://example.com/author2" class="author-name">Qiming Huang</a>
           </div>
           <div class="author-item">
-            <img src="/images/yuqi.jpg" alt="Author 3" class="author-photo"/>
+            <img src="images/yuqi.jpg" alt="Author 3" class="author-photo"/>
             <a href="https://example.com/author3" class="author-name">Yuqi Hou</a>
           </div>
           <!-- 继续添加其他作者 -->
           <div class="author-item">
-            <img src="/images/hyungjin.jpg" alt="Author 4" class="author-photo"/>
+            <img src="images/hyungjin.jpg" alt="Author 4" class="author-photo"/>
             <a href="https://example.com/author3" class="author-name">Hyung Jin Chang</a>
           </div>
           <div class="author-item">
-            <img src="/images/jiao-jianbo.jpg" alt="Author 5" class="author-photo"/>
+            <img src="images/jiao-jianbo.jpg" alt="Author 5" class="author-photo"/>
             <a href="https://example.com/author3" class="author-name">Jianbo Jiao</a>
           </div>
         </div>
