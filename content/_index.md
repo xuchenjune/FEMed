@@ -191,7 +191,7 @@ sections:
       text: |
         <div class="author-group">
           <div class="author-item">
-            <img src="/images/chenxu.jpg" alt="Author 1" class="author-photo"/>
+            <img src="{{ "images/chenxu.jpg" | relURL }}" alt="Author 1" class="author-photo"/>
             <a href="https://example.com/author1" class="author-name">Chen Xu</a>
           </div>
           <div class="author-item">
