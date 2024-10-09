@@ -46,7 +46,7 @@ sections:
           {{% cta cta_link="https://example.com/paper.pdf" cta_text="Paper" %}}
           {{% cta cta_link="https://example.com/supplementary.pdf" cta_text="Supplementary" %}}
           {{% cta cta_link="https://arxiv.org/abs/xxxx" cta_text="arXiv" %}}
-          {{% cta cta_link="https://github.com/username/repo" cta_text="Code" %}}
+          {{% cta cta_link="https://github.com/xuchenjune/FEMedSegment" cta_text="Code" %}}
         {{< /button-group >}}
     design:
       columns: '1'
