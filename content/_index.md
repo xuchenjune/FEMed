@@ -45,6 +45,7 @@ sections:
         {{< button-group >}}
           {{% cta cta_link="https://arxiv.org/abs/2410.09254" cta_text=" arXiv " %}}
           {{% cta cta_link="https://github.com/xuchenjune/FEMedSegment" cta_text="Code" %}}
+          {{% cta cta_link="https://mix.jianbojiao.com/" cta_text="Group" %}}
         {{< /button-group >}}
     design:
       columns: '1'
