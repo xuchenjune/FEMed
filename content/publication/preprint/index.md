@@ -29,7 +29,7 @@ featured: false
 links:
 - name: Group Home Page
   url: https://mix.jianbojiao.com/#:~:text=We%20are%20the%20Machine%20Intelligence%20+%20x%20group%20at%20the
-url_pdf: /FEMedSegment.pdf #https://arxiv.org/abs/2410.09254
+url_pdf: FEMedSegment.pdf #https://arxiv.org/abs/2410.09254
 url_code: 'https://github.com/xuchenjune/FEMedSegment'
 #url_dataset: '#'
 #url_poster: '#'
