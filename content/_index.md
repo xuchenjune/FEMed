@@ -44,7 +44,7 @@ sections:
       text: |
         <div style="text-align: center;margin:-20px 0px 10px 0px"><a href="https://accv2024.org/">The Springer: Asian Conference on Computer Vision (ACCV) 2024</a></div>
         {{< button-group >}}
-          {{% cta cta_link="/FEMedSegment.pdf" cta_text=" Paper " %}}
+          {{% cta cta_link="FEMedSegment.pdf" cta_text=" Paper " %}}
           {{% cta cta_link="https://arxiv.org/abs/2410.09254" cta_text=" arXiv " %}}
           {{% cta cta_link="https://github.com/xuchenjune/FEMedSegment" cta_text="Code" %}}
           {{% cta cta_link="https://mix.jianbojiao.com/" cta_text="Group" %}}
